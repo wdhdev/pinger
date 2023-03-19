@@ -1,0 +1,22 @@
+{
+    "default": {
+        "owners": ["853158265466257448"]
+    },
+
+    "embeds": {
+        "default": "#0096FF",
+        "error": "#E74C3C"
+    },
+
+    "emojis": {
+        "error": ":x:",
+        "pingpong": ":ping_pong:",
+        "successful": ":white_check_mark:"
+    },
+
+    "presence": {
+        "activity": "/help",
+        "activityType": 3,
+        "status": "ONLINE"
+    }
+}
