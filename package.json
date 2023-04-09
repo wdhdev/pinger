@@ -4,7 +4,7 @@
   "description": "A Discord bot which pings servers.",
   "main": "src/index.js",
   "author": "William Harrison",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@williamharrison/validate-url": "^1.0.0",
     "axios": "^1.3.4",
