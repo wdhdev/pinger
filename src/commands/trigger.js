@@ -4,7 +4,7 @@ const emoji = require("../config.json").emojis;
 
 module.exports = {
 	name: "trigger",
-	description: "Manually trigger the ping.",
+	description: "Manually trigger server pinging.",
     options: [],
     botPermissions: [],
     enabled: true,
@@ -14,7 +14,7 @@ module.exports = {
 
             const done = new Discord.EmbedBuilder()
                 .setColor(client.config_embeds.default)
-                .setDescription(`${emoji.successful} Done.`)
+                .setDescription(`${emoji.successful} Server pinging has been triggered..`)
 
             await interaction.editReply({ embeds: [done] });
         } catch(err) {
